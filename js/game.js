@@ -100,7 +100,7 @@ const textNodes = [
     text: 'You are so tired that you fall asleep while exploring the castle and are killed by some terrible monster in your sleep.',
     options: [
       {
-        text: 'Restart',
+        text: 'Restart Game?',
         nextText: -1
       }
     ]
@@ -110,7 +110,7 @@ const textNodes = [
     text: 'Without any money to buy a room you break into the nearest inn and fall asleep. After a few hours of sleep the owner of the inn finds you and has the town guard lock you in a cell.',
     options: [
       {
-        text: 'Restart',
+        text: 'Restart Game?',
         nextText: -1
       }
     ]
@@ -155,7 +155,7 @@ const textNodes = [
     text: 'Your attempts to run are in vain and the monster easily catches.',
     options: [
       {
-        text: 'Restart',
+        text: 'Restart Game?',
         nextText: -1
       }
     ]
@@ -165,7 +165,7 @@ const textNodes = [
     text: 'You foolishly thought this monster could be slain with a single sword.',
     options: [
       {
-        text: 'Restart',
+        text: 'Restart Game?',
         nextText: -1
       }
     ]
@@ -175,7 +175,7 @@ const textNodes = [
     text: 'The monster laughed as you hid behind your shield and ate you.',
     options: [
       {
-        text: 'Restart',
+        text: 'Restart Game?',
         nextText: -1
       }
     ]
@@ -185,7 +185,7 @@ const textNodes = [
     text: 'You threw your jar of goo at the monster and it exploded. After the dust settled you saw the monster was destroyed. Seeing your victory you decide to claim this castle as your and live out the rest of your days there.',
     options: [
       {
-        text: 'Congratulations. Play Again.',
+        text: 'Congratulations. Play Again?',
         nextText: -1
       }
     ]

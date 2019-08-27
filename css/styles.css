@@ -15,6 +15,28 @@ body {
     background-image: url(/img/bg.jpg)
 }
 
+/* Navigation Bar */
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+}
+
+.topnav a {
+    float: left;
+    color: skyblue;
+    text-align: center;
+    padding: 20px 80px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: cadetblue;
+    color: whitesmoke;
+}
+
 .container {
     width: 800px;
     max-width: 80%;
@@ -44,3 +66,58 @@ body {
     border-color: black;
     border-width: 3px; /* Border Thickness when Hovered */
 }
+
+
+/* Contact Form */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: cadetblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: skyblue;
+}
+
+.contact_form {
+  border-radius: 5px;
+  background-color: cadetblue;
+  padding: 20px 50px;
+  color: skyblue;
+  width: 50%;
+  margin-top: 100px
+}
+
+/* About Page */
+
+.about {
+  border-radius: 100px;
+  background-color: white;
+  padding: 20px 20px;
+  color: black;
+  width: 100%;
+  margin-top: 100px;    
+}
+
+
+
+
+

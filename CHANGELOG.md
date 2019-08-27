@@ -16,6 +16,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.1] - 2019-08-27
 ### Added
 - Background Image
+- Navigation Links
+- Content for Contact
 
 ### Changed
 - Colour of Main Container
+- Made it clearer to restart game
