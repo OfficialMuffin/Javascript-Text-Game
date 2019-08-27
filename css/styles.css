@@ -12,12 +12,13 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #333;
+    background-image: url(/img/bg.jpg)
 }
 
 .container {
     width: 800px;
     max-width: 80%;
-    background-color: white;
+    background-color: mintcream;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px 2px;
