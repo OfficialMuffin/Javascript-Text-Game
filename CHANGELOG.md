@@ -22,3 +22,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Colour of Main Container
 - Made it clearer to restart game
+
+## [1.0.2] - 2019-08-29
+### Added
+- About page content
+- Warning to notify users to not click links when playing game
+
+### Changed
+- Beautified HTML, JavaScript and CSS Code (Used Beautify Extention in VS Code)
+- Changed game storyline
+- Made about text box more visually appealing when text is added
+
+### Removed
+- Removed Contact Form Page as it was not needed
+
+### Known Issues 
+- Game is still in progress. Some paths are not correct or paths are broken
