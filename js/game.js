@@ -58,12 +58,13 @@ const textNodes = [{
       }
     ]
   },
+
   {
     id: 2,
     text: 'You get up and roam around the forest, looking for something to do. You then come accross a friendly wolf. He then mentions that he wants to trade the Blueberries ' +
       ' or you can look after one of his three cubs for a day.',
     options: [{
-        text: 'Trade the Blueberries for a stick',
+        text: 'Trade the Blueberries for a long durable stick',
         requiredState: (currentState) => currentState.blueberries,
         setState: {
           blueberries: false,
@@ -78,7 +79,7 @@ const textNodes = [{
           blueberries: false,
           cub: true
         },
-        nextText: 4
+        nextText: 5
       },
       {
         text: 'Attack the Wolf!',
@@ -90,17 +91,37 @@ const textNodes = [{
       }
     ]
   },
+
   {
     id: 3,
-    text: 'You take just the stick, wave to the Wolf and carry on with your journey. You see the cub sticking to his fathers leg staring at you. You think nothing of it and keep walking.',
+    text: 'You take just take the long durable stick and carry on with your journey. You see the cub sticking to his fathers leg staring at you. You think nothing of it and keep walking.',
     options: [{
-      text: 'OK',
-      nextText: 5
+      text: 'Keep Walking...',
+      nextText: 6
     }, ]
   },
+
   {
     id: 4,
     text: 'You foolishly attack the Wolf and it attacks back, slashing you across the face, killing you in the process.',
+    options: [{
+      text: 'Restart Game?',
+      nextText: -1
+    }]
+  },
+
+  {
+    id: 5,
+    text: 'You slowly reach out your hand to trade the blueberries, the wolf devours the blueberries out of your hand and licks the juice dripping from your hand.',
+    options: [{
+      text: 'Restart Game?',
+      nextText: -1
+    }]
+  },
+
+  {
+    id: 6,
+    text: 'As you keep walking, you hear rustling among the bushes behind you. You get your durable stick out to defend yourself. You turn around only to find there was nothing there. You carry on walking.',
     options: [{
       text: 'Restart Game?',
       nextText: -1
