@@ -51,7 +51,7 @@ const textNodes = [{
       },
       {
         /* DOES NOT HAVE A PATH */
-        text: 'Find a place to rest in the town', 
+        text: 'Find a place to rest in the town',
         nextText: -1
       },
     ]
