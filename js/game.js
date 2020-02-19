@@ -1,26 +1,26 @@
-const textElement = document.getElementById('text')
-const optionButtonsElement = document.getElementById('option-buttons')
+const textElement = document.getElementById('text');
+const optionButtonsElement = document.getElementById('option-buttons');
 
-let state = {}
+let state = {};
 
 function startGame() {
-  state = {}
+  state = {};
   showTextNode(1)
 }
 
 function showTextNode(textNodeIndex) {
-  const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
-  textElement.innerText = textNode.text
+  const textNode = textNodes.find(textNode => textNode.id === textNodeIndex);
+  textElement.innerText = textNode.text;
   while (optionButtonsElement.firstChild) {
     optionButtonsElement.removeChild(optionButtonsElement.firstChild)
   }
 
   textNode.options.forEach(option => {
     if (showOption(option)) {
-      const button = document.createElement('button')
-      button.innerText = option.text
-      button.classList.add('btn')
-      button.addEventListener('click', () => selectOption(option))
+      const button = document.createElement('button');
+      button.innerText = option.text;
+      button.classList.add('btn');
+      button.addEventListener('click', () => selectOption(option));
       optionButtonsElement.appendChild(button)
     }
   })
@@ -31,11 +31,11 @@ function showOption(option) {
 }
 
 function selectOption(option) {
-  const nextTextNodeId = option.nextText
+  const nextTextNodeId = option.nextText;
   if (nextTextNodeId <= 0) {
     return startGame()
   }
-  state = Object.assign(state, option.setState)
+  state = Object.assign(state, option.setState);
   showTextNode(nextTextNodeId)
 }
 
@@ -127,7 +127,7 @@ const textNodes = [{
       nextText: -1
     }]
   },
-]
+];
 
 /* 
 
@@ -136,4 +136,4 @@ const textNodes = [{
 
 */
 
-startGame()
+startGame();
