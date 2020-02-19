@@ -48,13 +48,6 @@ body {
   box-shadow: 0 0 10px 2px;
 }
 
-.warning {
-  color: red;
-  text-shadow: 0.5px 0.5px red;
-  text-align: center;
-  font-size: 12px;
-}
-
 .btn-grid {
   display: grid;
   grid-template-columns: repeat(2, auto);
